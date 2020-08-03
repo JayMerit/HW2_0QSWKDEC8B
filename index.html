@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2_0QSWKDEC8B</title>
+</head>
+<body>
+    <h1 id="title"><em><u>Before The Click</u></em></h1>
+    <button id="before-date">Get Current Date</button>
+    <h1 id="after-date"></h1>
+
+    <script>
+        document.getElementById("before-date").addEventListener("click", function(){
+            document.getElementById("after-date").innerHTML = Date()
+            document.getElementById("title").innerHTML="After The Click"
+        })
+    </script>
+</body>
+</html>
